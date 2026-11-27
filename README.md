@@ -1,173 +1,126 @@
 <div align="center">
 
-<img src="assets/icon.png" alt="YouTube Overlay Studio Logo" width="110" />
+<img src="assets/icon.png" alt="YouTube Overlay Studio" width="92" />
 
 # YouTube Overlay Studio
 
-**All-in-One Live Chat, Donation Alert, Game HUD, Stinger Transition, Copyright Shield & Hybrid Auto Subtitle untuk OBS Streamer**
+All-in-One Live Chat, Donasi, Game HUD, Stinger, Copyright Shield & Auto Subtitle untuk OBS — *oleh **Thirafi Siddha***
 
-*Dibuat oleh **Thirafi Siddha***
+<img src="assets/status-pills.svg" alt="v1.1.14 • Windows x64 • Zero OAuth • ID / EN / JA" />
 
-[![Latest Release](https://img.shields.io/github/v/release/thirafisiddha-ctrl/youtube-overlay-releases?style=for-the-badge&color=38bdf8&label=Latest%20Release)](https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/thirafisiddha-ctrl/youtube-overlay-releases/total?style=for-the-badge&color=10b981&label=Total%20Downloads)](https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20x64-6366f1?style=for-the-badge&logo=windows)](https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/latest)
-[![Zero OAuth](https://img.shields.io/badge/100%25-Tanpa%20Login%20OAuth-f59e0b?style=for-the-badge)](https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/latest)
-[![Languages](https://img.shields.io/badge/UI%20Language-ID%20%7C%20EN%20%7C%20%E6%97%A5%E6%9C%AC%E8%AA%9E-ec4899?style=for-the-badge)](https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/latest)
+<br /><br />
 
-[⬇️ **Download Installer Terbaru (Windows .exe)**](https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/latest) · [📺 **Video Demo YouTube**](https://youtu.be/AGmcqtmTq5g) · [🐞 **Form Laporan Bug**](https://forms.gle/27QSHwnJWXuxpMDs6)
+<a href="https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/download/v1.1.14/YouTube.Overlay.Setup.1.1.14.exe">
+  <img src="assets/download-btn.svg" alt="Download Installer Windows (.exe)" width="420" />
+</a>
+
+<sub>
+  <a href="https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/latest">Changelog & Rilis</a>
+  &nbsp;·&nbsp;
+  <a href="https://youtu.be/AGmcqtmTq5g">Video Demo</a>
+  &nbsp;·&nbsp;
+  <a href="https://forms.gle/27QSHwnJWXuxpMDs6">Laporan Bug</a>
+</sub>
 
 </div>
 
 ---
 
-## 📺 Video Showcase
-
-> **GUE BIKIN APLIKASI CHAT OVERLAY YOUTUBE, TIKTOK, TWITCH, KICK, ALL IN ONE MIRIP STREAMLABS** — *TRV - Have Fun Media*
-
 <div align="center">
+
+### 📺 Video Demo & Showcase
 
 [![Tonton Video Showcase di YouTube](https://i.ytimg.com/vi/AGmcqtmTq5g/maxresdefault.jpg)](https://youtu.be/AGmcqtmTq5g)
 
-*Klik gambar di atas untuk menonton demo lengkap di YouTube (`youtu.be/AGmcqtmTq5g`)*
+*<sub>YouTube Overlay Studio Demo — TRV Have Fun Media (<code>youtu.be/AGmcqtmTq5g</code>)</sub>*
 
 </div>
 
 ---
 
-## ✨ Fitur Unggulan
+## ✨ Ringkasan Fitur
 
-- **Multi-Platform Live Chat Overlay (Zero OAuth / Tanpa Login):** Gabungkan chat & viewer count real-time dari **YouTube, Twitch, Kick, dan TikTok** ke satu Browser Source OBS.
-- **Overlay Donasi & Media Share:** Integrasi **Saweria**, **Tako (Webhook)**, **Trakteer**, serta deteksi native **Super Chat / Super Sticker / Bits / Gift**.
-- **Overlay Gadget & Emote Wall:** Deteksi **Music Playing** (Spotify, YT Music, Browser, Stream Deck), **Social Media Rotator**, **Game Detection**, **Live Activity Pop-out**, **Pinned Chat Highlight**, & **Emote Wall** dengan reaksi elemen (🔥❄️⚡🌊).
-- **Extra Overlay — Stinger Transisi 60fps:** Transisi WebM transparan VP9 Alpha + audio SFX bawaan siap tempel ke OBS Studio.
-- **Extra Overlay — Game Pulse:** Counter & animasi sinematik otomatis (**Deaths, Kills, Boss Victory**) lengkap dengan **Mini Counter HUD**, **Auto Vision Micro-ROI / Valve GSI**, **Chat Crowd Trigger**, dan integrasi **Elgato Stream Deck / Fifine**.
-- **Extra Overlay — Copyright Shield:** Sensor & ganti musik game berhak cipta secara real-time dengan playlist lagu no-copyright (Jalur DSP Virtual Cable atau OBS WebSocket v5) + Panic Hotkey `Alt+M`.
-- **Extra Overlay — AI Hybrid Auto Subtitle (Mic + Game / OBS Source):** Mendukung **Sherpa-ONNX**, **Faster-Whisper (GPU CUDA / INT8)**, **Whisper.cpp**, **Vosk WASM**, dan 8 Cloud API, plus **pilih langsung Audio Source dari OBS Studio** untuk terjemahan suara Game terpisah & tetap berjalan saat aplikasi masuk System Tray.
-- **Overlay Studio (All-in-One) + Monitor HUD 1 Layar:** Susun seluruh elemen dalam satu kanvas 16:9 / 9:16 OBS, plus mode **Fullscreen Transparan (HUD)** langsung di atas game *(Windowed/Borderless)*.
-- **Multi-Bahasa & Auto-Update:** Pilihan bahasa UI lengkap (**Indonesia / English / 日本語**) dari dropdown bendera di titlebar + cek/pasang pembaruan otomatis via GitHub Releases.
+- **Multi-Platform Live Chat (Zero OAuth):** Gabungkan chat & viewer count **YouTube, Twitch, Kick, TikTok** ke satu Browser Source OBS.
+- **Donasi & Gadget:** **Saweria**, **Tako Webhook**, **Trakteer**, **Native Super Chat/Sticker/Bits**, Music Now-Playing, Socials Rotator, Game Detection, Pinned Highlight, & Emote Wall.
+- **Extra Overlay:** **Stinger 60fps** (VP9 Alpha + SFX), **Game Pulse** (Deaths/Kills/Boss + Stream Deck/Fifine), **Copyright Shield** (auto ganti BGM berhak cipta), & **Hybrid AI Auto Subtitle** (Mic + Game/OBS Source dengan terjemahan terpisah, tetap aktif di Tray).
+- **Overlay Studio & HUD:** Kanvas All-in-One 16:9 / 9:16 + Monitor HUD transparan untuk streamer 1 layar, pilihan bahasa **ID / EN / 日本語**, dan **Auto-Update**.
 
 ---
 
-## 🖥️ Screenshot Lengkap Semua Fitur (App UI)
+## 🖥️ Tampilan Aplikasi
 
 <div align="center">
-
-### 1. Multi-Platform Overlay Chatstream & Live Preview + AI Designer
-*Chat gabungan YouTube, Twitch, Kick, & TikTok lengkap dengan role badge (Owner, Moderator, Member, Verified, Super Chat), Viewer Count, & 20 tema preset.*
-<img src="assets/ui-chatstream.png" alt="Overlay Chatstream Dashboard" width="96%" />
-
-<br />
-
-### 2. Overlay Donasi, Media Share & Native Super Chat
-*Integrasi Saweria, Tako Webhook, Trakteer, serta Super Chat / Super Sticker / Bits & Gift native — lengkap dengan preview langsung & tombol uji notifikasi.*
-<img src="assets/ui-donation.png" alt="Overlay Donasi Dashboard" width="96%" />
-
-<br />
-
-### 3. Overlay Gadget, Pinned Chat Highlight & Emote Wall (Reaksi Elemen)
-*Now Playing Spotify/YT Music, Rotator Sosmed, Game Detection, Live Activity Pop-out, Pinned Highlight, serta hujan emote & custom sticker kreator.*
-<img src="assets/ui-gadget.png" alt="Overlay Gadget & Emote Wall" width="96%" />
-
-<br />
-
-### 4. Overlay Studio (All-in-One Canvas) & Monitor HUD 1 Layar
-*Atur posisi, ukuran, opacity, Custom CSS/HTML/JS, dan susunan layer dalam satu Browser Source OBS 16:9 / 9:16 atau tampilkan langsung di atas game.*
-<img src="assets/ui-studio.png" alt="Overlay Studio Canvas & HUD" width="96%" />
-
-<br />
-
-### 5. Extra Overlay — Hybrid AI Auto Subtitle (Mic + Game / OBS Source Translation)
-*Transkripsi real-time Mic Streamer + suara Game/Discord/OBS Source dengan bahasa terjemahan terpisah, Faster-Whisper CUDA, kontrol Stream Deck/Fifine, & mode Tray.*
-<img src="assets/ui-subtitle.png" alt="Auto Subtitle Studio" width="96%" />
-
-<br />
-
-### 6. Extra Overlay — Stinger Transisi OBS 60fps (VP9 Alpha + SFX)
-*Preview langsung frame cut point (ms), cek transparansi checkerboard, dan salin lokasi file `.webm` untuk Scene Transitions OBS Studio.*
-<img src="assets/ui-stinger.png" alt="Extra Overlay Stinger Transitions" width="96%" />
-
-<br />
-
-### 7. Extra Overlay — Game Pulse (Death / Kill / Boss Counter + Stream Deck)
-*Visual banner sinematik (YOU DIED, GREAT ENEMY FELLED, Fire XL), Mini HUD 4 pojok, Micro-ROI/Valve GSI, Hotkey `Alt+F1..F3`, & plugin native Elgato/Fifine.*
-<img src="assets/ui-gamepulse.png" alt="Extra Overlay Game Pulse" width="96%" />
-
-<br />
-
-### 8. Extra Overlay — Copyright Shield (Auto Music Suppression & Safe BGM)
-*Deteksi BGM berhak cipta otomatis dengan DSP Virtual Cable (Jalur A) maupun OBS WebSocket v5 Auto-Duck/Mute (Jalur B) serta playlist pengganti bebas copyright.*
-<img src="assets/ui-copyright.png" alt="Extra Overlay Copyright Shield" width="96%" />
-
-<br />
-
-### 9. Multi-Bahasa (ID / EN / 日本語) & Pop-out Support Developer
-*Dropdown bendera di titlebar untuk ganti bahasa seluruh UI secara instan serta tautan resmi dukungan developer (Website, Saweria, Tako Gift, GitHub Releases).*
-<img src="assets/ui-support-dev.png" alt="Support Developer & Language Switcher" width="96%" />
-
+  <img src="assets/ui-chatstream.png" alt="Overlay Chatstream Dashboard" width="90%" />
+  <br /><sub><b>Overlay Chatstream</b> — Multi-platform live preview, role badges, viewer count & 20 tema preset</sub>
 </div>
 
----
-
-## 🎨 Preset Tema Chatstream (Animasi GIF)
-
-Beberapa contoh preset tema interaktif yang langsung siap pakai di aplikasi (termasuk badge Role Owner/Mod/Member & preset game favorit):
+<br />
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="assets/chat/p5r.gif" alt="Persona 5" width="100%" /><br />
-      <b>Persona 5</b>
+    <td align="center" width="50%">
+      <img src="assets/ui-studio.png" alt="Overlay Studio Canvas & HUD" width="100%" /><br />
+      <sub><b>Overlay Studio & Monitor HUD</b> — Kanvas 16:9 / 9:16</sub>
     </td>
-    <td align="center" width="33%">
-      <img src="assets/chat/cyberpunk.gif" alt="Cyberpunk 2077" width="100%" /><br />
-      <b>Cyberpunk 2077</b>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/chat/gtavi.gif" alt="GTA VI Vice City" width="100%" /><br />
-      <b>GTA VI Vice City</b>
+    <td align="center" width="50%">
+      <img src="assets/ui-subtitle.png" alt="AI Auto Subtitle" width="100%" /><br />
+      <sub><b>AI Auto Subtitle</b> — Mic + Game / OBS Source Translate</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/chat/p3r.gif" alt="Persona 3 Reload" width="100%" /><br />
-      <b>Persona 3 Reload</b>
+      <img src="assets/ui-donation.png" alt="Overlay Donasi" width="100%" /><br />
+      <sub><b>Overlay Donasi</b> — Saweria, Tako & Super Chat Native</sub>
     </td>
     <td align="center">
-      <img src="assets/chat/p4r.gif" alt="Persona 4" width="100%" /><br />
-      <b>Persona 4 Revival</b>
-    </td>
-    <td align="center">
-      <img src="assets/chat/valorant.gif" alt="Valorant" width="100%" /><br />
-      <b>Valorant</b>
+      <img src="assets/ui-gadget.png" alt="Overlay Gadget & Emote Wall" width="100%" /><br />
+      <sub><b>Overlay Gadget & Emote Wall</b> — Music, Highlight & Stickers</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/chat/darksouls.gif" alt="Souls-like" width="100%" /><br />
-      <b>Souls-like (Dark Souls)</b>
+      <img src="assets/ui-stinger.png" alt="Stinger Transisi 60fps" width="100%" /><br />
+      <sub><b>Stinger Transisi 60fps</b> — WebM Alpha + SFX OBS</sub>
     </td>
     <td align="center">
-      <img src="assets/chat/onepiece.gif" alt="One Piece" width="100%" /><br />
-      <b>One Piece (Mugiwara)</b>
-    </td>
-    <td align="center">
-      <img src="assets/chat/pokemon.gif" alt="Pokemon" width="100%" /><br />
-      <b>Pokémon Pixel</b>
+      <img src="assets/ui-gamepulse.png" alt="Game Pulse HUD" width="100%" /><br />
+      <sub><b>Game Pulse</b> — Counter Deaths/Kills/Win + Stream Deck</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/chat/suikoden.gif" alt="Suikoden Classic" width="100%" /><br />
-      <b>Suikoden Classic</b>
+      <img src="assets/ui-copyright.png" alt="Copyright Shield" width="100%" /><br />
+      <sub><b>Copyright Shield</b> — Safe BGM & DSP / OBS Filter</sub>
     </td>
     <td align="center">
-      <img src="assets/chat/fallout.gif" alt="Fallout 4" width="100%" /><br />
-      <b>Fallout 4 Pip-Boy</b>
+      <img src="assets/ui-support-dev.png" alt="Multi-Bahasa & Support Dev" width="100%" /><br />
+      <sub><b>Multi-Bahasa (ID / EN / 日本語)</b> & Support Developer</sub>
     </td>
-    <td align="center">
-      <img src="assets/chat/cute.gif" alt="Cute Pastel" width="100%" /><br />
-      <b>Cute Pastel Kawaii</b>
-    </td>
+  </tr>
+</table>
+
+---
+
+## 🎨 Preset Tema Chatstream
+
+<table>
+  <tr>
+    <td align="center" width="25%"><img src="assets/chat/p5r.gif" alt="Persona 5" width="100%" /><br /><sub><b>Persona 5</b></sub></td>
+    <td align="center" width="25%"><img src="assets/chat/cyberpunk.gif" alt="Cyberpunk 2077" width="100%" /><br /><sub><b>Cyberpunk 2077</b></sub></td>
+    <td align="center" width="25%"><img src="assets/chat/gtavi.gif" alt="GTA VI" width="100%" /><br /><sub><b>GTA VI Vice City</b></sub></td>
+    <td align="center" width="25%"><img src="assets/chat/p3r.gif" alt="Persona 3 Reload" width="100%" /><br /><sub><b>Persona 3 Reload</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/chat/p4r.gif" alt="Persona 4" width="100%" /><br /><sub><b>Persona 4 Revival</b></sub></td>
+    <td align="center"><img src="assets/chat/valorant.gif" alt="Valorant" width="100%" /><br /><sub><b>Valorant</b></sub></td>
+    <td align="center"><img src="assets/chat/darksouls.gif" alt="Souls-like" width="100%" /><br /><sub><b>Souls-like</b></sub></td>
+    <td align="center"><img src="assets/chat/onepiece.gif" alt="One Piece" width="100%" /><br /><sub><b>One Piece</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/chat/pokemon.gif" alt="Pokemon" width="100%" /><br /><sub><b>Pokémon Pixel</b></sub></td>
+    <td align="center"><img src="assets/chat/suikoden.gif" alt="Suikoden" width="100%" /><br /><sub><b>Suikoden Classic</b></sub></td>
+    <td align="center"><img src="assets/chat/fallout.gif" alt="Fallout 4" width="100%" /><br /><sub><b>Fallout 4 Pip-Boy</b></sub></td>
+    <td align="center"><img src="assets/chat/cute.gif" alt="Cute Pastel" width="100%" /><br /><sub><b>Cute Pastel</b></sub></td>
   </tr>
 </table>
 
@@ -175,59 +128,27 @@ Beberapa contoh preset tema interaktif yang langsung siap pakai di aplikasi (ter
 
 ## ⚡ Preset Stinger Transisi OBS (60fps Alpha + SFX)
 
-Stinger WebM transparan siap pakai langsung di **OBS Studio → Scene Transitions → Stinger**:
-
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="assets/stinger/p5r.gif" alt="Stinger Persona 5" width="100%" /><br />
-      <b>Persona 5</b>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/stinger/cyberpunk.gif" alt="Stinger Cyberpunk 2077" width="100%" /><br />
-      <b>Cyberpunk 2077</b>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/stinger/valorant.gif" alt="Stinger Valorant" width="100%" /><br />
-      <b>Valorant</b>
-    </td>
+    <td align="center" width="33%"><img src="assets/stinger/p5r.gif" alt="Stinger Persona 5" width="100%" /><br /><sub><b>Persona 5</b></sub></td>
+    <td align="center" width="33%"><img src="assets/stinger/cyberpunk.gif" alt="Stinger Cyberpunk" width="100%" /><br /><sub><b>Cyberpunk 2077</b></sub></td>
+    <td align="center" width="33%"><img src="assets/stinger/valorant.gif" alt="Stinger Valorant" width="100%" /><br /><sub><b>Valorant</b></sub></td>
   </tr>
   <tr>
-    <td align="center">
-      <img src="assets/stinger/gtavi.gif" alt="Stinger GTA VI" width="100%" /><br />
-      <b>GTA VI</b>
-    </td>
-    <td align="center">
-      <img src="assets/stinger/p3r.gif" alt="Stinger Persona 3 Reload" width="100%" /><br />
-      <b>Persona 3 Reload</b>
-    </td>
-    <td align="center">
-      <img src="assets/stinger/souls.gif" alt="Stinger Souls-like" width="100%" /><br />
-      <b>Souls-like</b>
-    </td>
+    <td align="center"><img src="assets/stinger/gtavi.gif" alt="Stinger GTA VI" width="100%" /><br /><sub><b>GTA VI</b></sub></td>
+    <td align="center"><img src="assets/stinger/p3r.gif" alt="Stinger Persona 3 Reload" width="100%" /><br /><sub><b>Persona 3 Reload</b></sub></td>
+    <td align="center"><img src="assets/stinger/souls.gif" alt="Stinger Souls-like" width="100%" /><br /><sub><b>Souls-like</b></sub></td>
   </tr>
 </table>
 
 ---
 
-## ⬇️ Cara Install & Auto-Update
+## 🙌 Credits & Dukungan Developer
 
-1. Buka halaman [**Releases**](https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/latest) dan unduh **`YouTube Overlay Setup X.X.X.exe`**.
-2. Jalankan installer seperti biasa (`Windows x64`).
-3. Untuk update berikutnya, Anda **tidak perlu cek manual** — aplikasi akan menampilkan notifikasi otomatis saat versi baru rilis (atau klik tombol versi di pojok kanan atas aplikasi).
+Dikembangkan oleh **Thirafi Siddha** — cukup install sekali, update berikutnya otomatis langsung dari aplikasi.
 
----
-
-## 🙌 Credits & Tentang Developer
-
-Aplikasi ini dikembangkan oleh **Thirafi Siddha**. Terima kasih telah menggunakan aplikasi ini! Dukung terus pengembangannya melalui:
-
-| Platform | Link |
-| :--- | :--- |
-| 🌐 **Website Resmi** | [thirafisiddha.netlify.app](https://thirafisiddha.netlify.app/) |
-| 🟡 **Saweria** | [saweria.co/thirafisiddha](https://saweria.co/thirafisiddha) |
-| 💙 **Tako Gift** | [tako.id/TRVsiddha/gift](https://tako.id/TRVsiddha/gift) |
-| 🔴 **YouTube** | [Thirafi Siddha](https://www.youtube.com/@ThirafiSiddha) |
-| 📸 **Instagram** | [@trv_cd](https://www.instagram.com/trv_cd/) |
-| 🎮 **Indie Game Project** | [Silent Resonance (Itch.io)](https://trvansions.itch.io/silent-resonance-alpha) |
-| 🐞 **Laporan Bug & Saran** | [Form Laporan Bug](https://forms.gle/27QSHwnJWXuxpMDs6) |
+| | Link Resmi | | Link Lainnya |
+| :--- | :--- | :--- | :--- |
+| 🌐 **Website** | [thirafisiddha.netlify.app](https://thirafisiddha.netlify.app/) | 🔴 **YouTube** | [Thirafi Siddha](https://www.youtube.com/@ThirafiSiddha) |
+| 🟡 **Saweria** | [saweria.co/thirafisiddha](https://saweria.co/thirafisiddha) | 📸 **Instagram** | [@trv_cd](https://www.instagram.com/trv_cd/) |
+| 💙 **Tako Gift** | [tako.id/TRVsiddha/gift](https://tako.id/TRVsiddha/gift) | 🎮 **Indie Game** | [Silent Resonance (Itch.io)](https://trvansions.itch.io/silent-resonance-alpha) |

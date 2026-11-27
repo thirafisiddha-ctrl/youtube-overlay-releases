@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 28" width="488" height="28" role="img" aria-label="v1.1.14 • Windows x64 • Zero OAuth • ID / EN / JA">
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">
+    <rect x="4" y="2" width="124" height="24" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="19" cy="14" r="3.5" fill="#10b981"/>
+    <text x="73" y="18" text-anchor="middle" fill="#e2e8f0">v1.1.14 Latest</text>
+
+    <rect x="136" y="2" width="104" height="24" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="188" y="18" text-anchor="middle" fill="#93c5fd">Windows x64</text>
+
+    <rect x="248" y="2" width="96" height="24" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="296" y="18" text-anchor="middle" fill="#fcd34d">Zero OAuth</text>
+
+    <rect x="352" y="2" width="132" height="24" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="418" y="18" text-anchor="middle" fill="#f9a8d4">ID • EN • 日本語</text>
+  </g>
+</svg>
