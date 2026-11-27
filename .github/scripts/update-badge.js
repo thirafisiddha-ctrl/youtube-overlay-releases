@@ -15,14 +15,9 @@ const fs = require('fs');
   const rels = await res.json();
   let total = 0;
   let latestTag = 'v1.1.14';
-  let latestExeUrl = '';
   if (Array.isArray(rels) && rels.length > 0) {
     const latest = rels.find(r => !r.draft && !r.prerelease) || rels[0];
     latestTag = latest.tag_name || latestTag;
-    const setupAsset = (latest.assets || []).find(a => /setup.*.exe$/i.test(a.name || ''));
-    if (setupAsset && setupAsset.browser_download_url) {
-      latestExeUrl = setupAsset.browser_download_url;
-    }
     for (const r of rels) {
       for (const a of (r.assets || [])) total += Number(a.download_count || 0);
     }
@@ -67,21 +62,11 @@ const fs = require('fs');
     '  <path d="M38 24v13m0 0l-5-5m5 5l5-5M30 42h16" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>',
     '  <text x="68" y="30" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#f8fafc" letter-spacing="0.1">Download untuk Windows</text>',
     `  <text x="68" y="49" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="500" fill="#94a3b8">${latestTag}  •  Installer x64  •  Auto-Update</text>`,
-    '  <rect x="348" y="21" width="54" height="26" rx="8" fill="#38bdf8" fill-opacity="0.14" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1"/>',
-    '  <text x="375" y="38" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#38bdf8">.EXE ↓</text>',
+    '  <rect x="332" y="21" width="72" height="26" rx="8" fill="#38bdf8" fill-opacity="0.14" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1"/>',
+    '  <text x="368" y="38" text-anchor="middle" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#38bdf8">RELEASES →</text>',
     '</svg>'
   ].join('\n') + '\n';
   fs.writeFileSync('assets/download-btn.svg', btnSvg, 'utf8');
 
-  if (latestExeUrl && fs.existsSync('README.md')) {
-    const readme = fs.readFileSync('README.md', 'utf8');
-    const nextReadme = readme.replace(
-      /https:\/\/github\.com\/[^"'\s]+\/releases\/download\/[^"'\s]+\/YouTube\.Overlay\.Setup\.[^"'\s]+\.exe/,
-      latestExeUrl
-    );
-    if (nextReadme !== readme) {
-      fs.writeFileSync('README.md', nextReadme, 'utf8');
-    }
-  }
-  console.log('Updated stats ->', latestTag, label, latestExeUrl);
+  console.log('Updated stats ->', latestTag, label);
 })();

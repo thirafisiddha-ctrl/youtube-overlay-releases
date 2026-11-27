@@ -4,7 +4,7 @@ on:
   release:
     types: [published, edited]
   schedule:
-    - cron: '0 * * * *'
+    - cron: '4,19,34,49 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -16,18 +16,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Update download counter, button SVG & latest installer link
+      - name: Update download counter & button version SVG
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
         run: node .github/scripts/update-badge.js
 
-      - name: Commit updated assets if changed
+      - name: Commit updated SVGs if changed
         run: |
-          if [ -n "$(git status --porcelain assets/status-pills.svg assets/download-btn.svg README.md)" ]; then
+          if [ -n "$(git status --porcelain assets/status-pills.svg assets/download-btn.svg)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add assets/status-pills.svg assets/download-btn.svg README.md
-            git commit -m "chore: update release badge & download link [skip ci]"
+            git add assets/status-pills.svg assets/download-btn.svg
+            git commit -m "chore: update download count & release badge [skip ci]"
             git push
           fi

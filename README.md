@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/download/v1.1.14/YouTube.Overlay.Setup.1.1.14.exe">
+  <a href="https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases">
     <img src="assets/download-btn.svg" alt="Download Installer Windows (.exe)" width="420" />
   </a>
 </p>
