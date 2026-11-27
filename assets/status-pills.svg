@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 596 28" width="596" height="28" role="img" aria-label="v1.1.16 • 21 Downloads • Windows x64 • Zero OAuth • ID / EN / JA">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 596 28" width="596" height="28" role="img" aria-label="v1.1.16 • 24 Downloads • Windows x64 • Zero OAuth • ID / EN / JA">
   <g font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600">
     <rect x="2" y="2" width="96" height="24" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
     <circle cx="17" cy="14" r="3.5" fill="#10b981"/>
     <text x="56" y="18" text-anchor="middle" fill="#e2e8f0">v1.1.16</text>
     <rect x="106" y="2" width="132" height="24" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
     <path d="M121 9.5v6m0 0l-2.5-2.5m2.5 2.5l2.5-2.5M118 18h6" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="179" y="18" text-anchor="middle" fill="#7dd3fc">21 Downloads</text>
+    <text x="179" y="18" text-anchor="middle" fill="#7dd3fc">24 Downloads</text>
     <rect x="246" y="2" width="104" height="24" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
     <text x="298" y="18" text-anchor="middle" fill="#93c5fd">Windows x64</text>
     <rect x="358" y="2" width="96" height="24" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
