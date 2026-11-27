@@ -1,40 +1,45 @@
-<div align="center">
+<p align="center">
+  <img src="assets/icon.png" alt="YouTube Overlay Studio" width="88" />
+</p>
 
-<img src="assets/icon.png" alt="YouTube Overlay Studio" width="92" />
+<h1 align="center">YouTube Overlay Studio</h1>
 
-# YouTube Overlay Studio
+<p align="center">
+  All-in-One Live Chat, Donasi, Game HUD, Stinger, Copyright Shield &amp; Auto Subtitle untuk OBS<br />
+  <sub>oleh <b>Thirafi Siddha</b></sub>
+</p>
 
-All-in-One Live Chat, Donasi, Game HUD, Stinger, Copyright Shield & Auto Subtitle untuk OBS — *oleh **Thirafi Siddha***
+<p align="center">
+  <img src="assets/status-pills.svg" alt="v1.1.14 • Live Downloads • Windows x64 • Zero OAuth • ID / EN / JA" />
+</p>
 
-<img src="assets/status-pills.svg" alt="v1.1.14 • Windows x64 • Zero OAuth • ID / EN / JA" />
+<p align="center">
+  <a href="https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/download/v1.1.14/YouTube.Overlay.Setup.1.1.14.exe">
+    <img src="assets/download-btn.svg" alt="Download Installer Windows (.exe)" width="420" />
+  </a>
+</p>
 
-<br /><br />
-
-<a href="https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/download/v1.1.14/YouTube.Overlay.Setup.1.1.14.exe">
-  <img src="assets/download-btn.svg" alt="Download Installer Windows (.exe)" width="420" />
-</a>
-
-<sub>
-  <a href="https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/latest">Changelog & Rilis</a>
-  &nbsp;·&nbsp;
-  <a href="https://youtu.be/AGmcqtmTq5g">Video Demo</a>
-  &nbsp;·&nbsp;
-  <a href="https://forms.gle/27QSHwnJWXuxpMDs6">Laporan Bug</a>
-</sub>
-
-</div>
+<p align="center">
+  <sub>
+    <a href="https://github.com/thirafisiddha-ctrl/youtube-overlay-releases/releases/latest">Changelog &amp; Semua Rilis</a>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="https://youtu.be/AGmcqtmTq5g">Video Demo</a>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="https://forms.gle/27QSHwnJWXuxpMDs6">Laporan Bug</a>
+  </sub>
+</p>
 
 ---
 
-<div align="center">
+<p align="center">
+  <a href="https://youtu.be/AGmcqtmTq5g">
+    <img src="https://i.ytimg.com/vi/AGmcqtmTq5g/maxresdefault.jpg" alt="Tonton Video Showcase di YouTube" width="680" />
+  </a>
+</p>
 
-### 📺 Video Demo & Showcase
-
-[![Tonton Video Showcase di YouTube](https://i.ytimg.com/vi/AGmcqtmTq5g/maxresdefault.jpg)](https://youtu.be/AGmcqtmTq5g)
-
-*<sub>YouTube Overlay Studio Demo — TRV Have Fun Media (<code>youtu.be/AGmcqtmTq5g</code>)</sub>*
-
-</div>
+<p align="center">
+  <sub>🎬 <b>Video Demo YouTube:</b> <a href="https://youtu.be/AGmcqtmTq5g"><code>youtu.be/AGmcqtmTq5g</code></a> — <i>TRV Have Fun Media</i></sub>
+</p>
 
 ---
 
@@ -43,24 +48,22 @@ All-in-One Live Chat, Donasi, Game HUD, Stinger, Copyright Shield & Auto Subtitl
 - **Multi-Platform Live Chat (Zero OAuth):** Gabungkan chat & viewer count **YouTube, Twitch, Kick, TikTok** ke satu Browser Source OBS.
 - **Donasi & Gadget:** **Saweria**, **Tako Webhook**, **Trakteer**, **Native Super Chat/Sticker/Bits**, Music Now-Playing, Socials Rotator, Game Detection, Pinned Highlight, & Emote Wall.
 - **Extra Overlay:** **Stinger 60fps** (VP9 Alpha + SFX), **Game Pulse** (Deaths/Kills/Boss + Stream Deck/Fifine), **Copyright Shield** (auto ganti BGM berhak cipta), & **Hybrid AI Auto Subtitle** (Mic + Game/OBS Source dengan terjemahan terpisah, tetap aktif di Tray).
-- **Overlay Studio & HUD:** Kanvas All-in-One 16:9 / 9:16 + Monitor HUD transparan untuk streamer 1 layar, pilihan bahasa **ID / EN / 日本語**, dan **Auto-Update**.
+- **Overlay Studio & HUD:** Kanvas All-in-One 16:9 / 9:16 + Monitor HUD transparan untuk streamer 1 layar, pilihan bahasa **ID / EN / 日本語**, & **Auto-Update**.
 
 ---
 
 ## 🖥️ Tampilan Aplikasi
 
-<div align="center">
-  <img src="assets/ui-chatstream.png" alt="Overlay Chatstream Dashboard" width="90%" />
-  <br /><sub><b>Overlay Chatstream</b> — Multi-platform live preview, role badges, viewer count & 20 tema preset</sub>
-</div>
+<p align="center">
+  <img src="assets/ui-chatstream.png" alt="Overlay Chatstream Dashboard" width="90%" /><br />
+  <sub><b>Overlay Chatstream</b> — Multi-platform live preview, role badges, viewer count &amp; 20 tema preset</sub>
+</p>
 
-<br />
-
-<table>
+<table align="center">
   <tr>
     <td align="center" width="50%">
       <img src="assets/ui-studio.png" alt="Overlay Studio Canvas & HUD" width="100%" /><br />
-      <sub><b>Overlay Studio & Monitor HUD</b> — Kanvas 16:9 / 9:16</sub>
+      <sub><b>Overlay Studio &amp; Monitor HUD</b> — Kanvas 16:9 / 9:16</sub>
     </td>
     <td align="center" width="50%">
       <img src="assets/ui-subtitle.png" alt="AI Auto Subtitle" width="100%" /><br />
@@ -70,11 +73,11 @@ All-in-One Live Chat, Donasi, Game HUD, Stinger, Copyright Shield & Auto Subtitl
   <tr>
     <td align="center">
       <img src="assets/ui-donation.png" alt="Overlay Donasi" width="100%" /><br />
-      <sub><b>Overlay Donasi</b> — Saweria, Tako & Super Chat Native</sub>
+      <sub><b>Overlay Donasi</b> — Saweria, Tako &amp; Super Chat Native</sub>
     </td>
     <td align="center">
       <img src="assets/ui-gadget.png" alt="Overlay Gadget & Emote Wall" width="100%" /><br />
-      <sub><b>Overlay Gadget & Emote Wall</b> — Music, Highlight & Stickers</sub>
+      <sub><b>Overlay Gadget &amp; Emote Wall</b> — Music, Highlight &amp; Stickers</sub>
     </td>
   </tr>
   <tr>
@@ -90,11 +93,11 @@ All-in-One Live Chat, Donasi, Game HUD, Stinger, Copyright Shield & Auto Subtitl
   <tr>
     <td align="center">
       <img src="assets/ui-copyright.png" alt="Copyright Shield" width="100%" /><br />
-      <sub><b>Copyright Shield</b> — Safe BGM & DSP / OBS Filter</sub>
+      <sub><b>Copyright Shield</b> — Safe BGM &amp; DSP / OBS Filter</sub>
     </td>
     <td align="center">
       <img src="assets/ui-support-dev.png" alt="Multi-Bahasa & Support Dev" width="100%" /><br />
-      <sub><b>Multi-Bahasa (ID / EN / 日本語)</b> & Support Developer</sub>
+      <sub><b>Multi-Bahasa (ID / EN / 日本語)</b> &amp; Support Developer</sub>
     </td>
   </tr>
 </table>
@@ -103,7 +106,7 @@ All-in-One Live Chat, Donasi, Game HUD, Stinger, Copyright Shield & Auto Subtitl
 
 ## 🎨 Preset Tema Chatstream
 
-<table>
+<table align="center">
   <tr>
     <td align="center" width="25%"><img src="assets/chat/p5r.gif" alt="Persona 5" width="100%" /><br /><sub><b>Persona 5</b></sub></td>
     <td align="center" width="25%"><img src="assets/chat/cyberpunk.gif" alt="Cyberpunk 2077" width="100%" /><br /><sub><b>Cyberpunk 2077</b></sub></td>
@@ -128,7 +131,7 @@ All-in-One Live Chat, Donasi, Game HUD, Stinger, Copyright Shield & Auto Subtitl
 
 ## ⚡ Preset Stinger Transisi OBS (60fps Alpha + SFX)
 
-<table>
+<table align="center">
   <tr>
     <td align="center" width="33%"><img src="assets/stinger/p5r.gif" alt="Stinger Persona 5" width="100%" /><br /><sub><b>Persona 5</b></sub></td>
     <td align="center" width="33%"><img src="assets/stinger/cyberpunk.gif" alt="Stinger Cyberpunk" width="100%" /><br /><sub><b>Cyberpunk 2077</b></sub></td>
@@ -147,8 +150,29 @@ All-in-One Live Chat, Donasi, Game HUD, Stinger, Copyright Shield & Auto Subtitl
 
 Dikembangkan oleh **Thirafi Siddha** — cukup install sekali, update berikutnya otomatis langsung dari aplikasi.
 
-| | Link Resmi | | Link Lainnya |
-| :--- | :--- | :--- | :--- |
-| 🌐 **Website** | [thirafisiddha.netlify.app](https://thirafisiddha.netlify.app/) | 🔴 **YouTube** | [Thirafi Siddha](https://www.youtube.com/@ThirafiSiddha) |
-| 🟡 **Saweria** | [saweria.co/thirafisiddha](https://saweria.co/thirafisiddha) | 📸 **Instagram** | [@trv_cd](https://www.instagram.com/trv_cd/) |
-| 💙 **Tako Gift** | [tako.id/TRVsiddha/gift](https://tako.id/TRVsiddha/gift) | 🎮 **Indie Game** | [Silent Resonance (Itch.io)](https://trvansions.itch.io/silent-resonance-alpha) |
+<table align="center">
+  <tr>
+    <th>Dukungan &amp; Resmi</th>
+    <th>Link</th>
+    <th>Sosial &amp; Karya</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>🌐 <b>Website Resmi</b></td>
+    <td><a href="https://thirafisiddha.netlify.app/">thirafisiddha.netlify.app</a></td>
+    <td>🔴 <b>YouTube</b></td>
+    <td><a href="https://www.youtube.com/@ThirafiSiddha">Thirafi Siddha</a></td>
+  </tr>
+  <tr>
+    <td>🟡 <b>Saweria</b></td>
+    <td><a href="https://saweria.co/thirafisiddha">saweria.co/thirafisiddha</a></td>
+    <td>📸 <b>Instagram</b></td>
+    <td><a href="https://www.instagram.com/trv_cd/">@trv_cd</a></td>
+  </tr>
+  <tr>
+    <td>💙 <b>Tako Gift</b></td>
+    <td><a href="https://tako.id/TRVsiddha/gift">tako.id/TRVsiddha/gift</a></td>
+    <td>🎮 <b>Indie Game</b></td>
+    <td><a href="https://trvansions.itch.io/silent-resonance-alpha">Silent Resonance (Itch.io)</a></td>
+  </tr>
+</table>
