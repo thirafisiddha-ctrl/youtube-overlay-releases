@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/status-pills.svg" alt="v1.1.14 • Live Downloads • Windows x64 • Zero OAuth • ID / EN / JA" />
+  <img src="assets/status-pills.svg" alt="v1.1.15 • Live Downloads • Windows x64 • Zero OAuth • ID / EN / JA" />
 </p>
 
 <p align="center">
