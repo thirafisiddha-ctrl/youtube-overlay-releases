@@ -4,6 +4,7 @@ on:
   release:
     types: [published, edited]
   schedule:
+    # Every 15 minutes — keep-alive: badge commit (without [skip ci]) resets the 60-day inactivity clock
     - cron: '4,19,34,49 * * * *'
   workflow_dispatch:
 
@@ -26,11 +27,13 @@ jobs:
 
       - name: Commit updated SVGs if changed
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain assets/status-pills.svg assets/download-btn.svg)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
             git add assets/status-pills.svg assets/download-btn.svg
-            git commit -m "chore: update download count & release badge [skip ci]"
+            git commit -m "chore: update download count & release badge"
             git pull --rebase origin main || true
             git push origin HEAD:main
+          else
+            echo "No badge changes — skipping commit."
           fi
